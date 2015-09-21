@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21975DF1BAFBFBF0001D3A1 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */; };
+		A21975E01BAFBFBF0001D3A1 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */; };
 		A2B470F91B9A49C300525051 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B470F81B9A49C300525051 /* main.swift */; };
 		A2B471011B9A4AB700525051 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B471001B9A4AB700525051 /* Logger.swift */; };
 		A2B4710B1B9A4AD200525051 /* swiftlibtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B4710A1B9A4AD200525051 /* swiftlibtest.swift */; };
@@ -28,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		A2B470F51B9A49C300525051 /* swiftlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftlib; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B470F81B9A49C300525051 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A2B471001B9A4AB700525051 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 			children = (
 				A2B471001B9A4AB700525051 /* Logger.swift */,
 				A2B471101B9A54AB00525051 /* IsNearlyZero.swift */,
+				A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -198,6 +202,7 @@
 				A2B470F91B9A49C300525051 /* main.swift in Sources */,
 				A2B471011B9A4AB700525051 /* Logger.swift in Sources */,
 				A2B471111B9A54AB00525051 /* IsNearlyZero.swift in Sources */,
+				A21975DF1BAFBFBF0001D3A1 /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +213,7 @@
 				A2B4710F1B9A4B0800525051 /* Logger.swift in Sources */,
 				A2B4710B1B9A4AD200525051 /* swiftlibtest.swift in Sources */,
 				A2B471121B9A589F00525051 /* IsNearlyZero.swift in Sources */,
+				A21975E01BAFBFBF0001D3A1 /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +365,7 @@
 				A2B470FE1B9A49C300525051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B4710C1B9A4AD200525051 /* Build configuration list for PBXNativeTarget "swiftlibtest" */ = {
 			isa = XCConfigurationList;
@@ -367,6 +374,7 @@
 				A2B4710E1B9A4AD200525051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

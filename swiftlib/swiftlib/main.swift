@@ -8,5 +8,6 @@
 
 import Foundation
 
-println("Hello, World!")
-
+let sw = StopWatch()
+sleep(2)
+sw.stop()
