@@ -8,6 +8,3 @@
 
 import Foundation
 
-let sw = StopWatch()
-sleep(2)
-sw.stop()

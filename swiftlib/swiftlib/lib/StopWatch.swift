@@ -8,13 +8,17 @@
 
 import Foundation
 
-class StopWatch {
+@objc public class StopWatch : NSObject {
     // start stopwatch at initialize
-    init(){
+    override init(){
+        super.init()
+        _start = NSDate()
+    }
+    public func start(){
         _start = NSDate()
     }
     // stop stopwatch and debug print elapsed time
-    func stop(function: String = __FUNCTION__, line: Int = __LINE__){
+    public func stop(function: String = __FUNCTION__, line: Int = __LINE__){
         let elapsed = NSDate().timeIntervalSinceDate(_start)
         Logger.debug("\(elapsed)", function:function, line:line)
     }

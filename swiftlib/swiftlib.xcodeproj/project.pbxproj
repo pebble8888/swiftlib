@@ -53,7 +53,7 @@
 		A2436DB71BB65F5B0068D628 /* swiftlibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftlibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2436DBD1BB65F5B0068D628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2436DBE1BB65F5B0068D628 /* swiftlibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftlibTests.swift; sourceTree = "<group>"; };
-		A2B470F51B9A49C300525051 /* swiftlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftlib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B470F51B9A49C300525051 /* swiftlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = swiftlib; path = swiftlibbin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B470F81B9A49C300525051 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A2B471001B9A4AB700525051 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		A2B471061B9A4AD200525051 /* swiftlibtest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftlibtest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -409,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -449,6 +450,7 @@
 				INFOPLIST_FILE = swiftlibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -575,6 +577,7 @@
 				INFOPLIST_FILE = swiftlibtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -602,6 +605,7 @@
 				A2436DC21BB65F5B0068D628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2436DC31BB65F5B0068D628 /* Build configuration list for PBXNativeTarget "swiftlibTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +614,7 @@
 				A2436DC51BB65F5B0068D628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B470F01B9A49C300525051 /* Build configuration list for PBXProject "swiftlib" */ = {
 			isa = XCConfigurationList;

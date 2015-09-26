@@ -8,6 +8,7 @@
 
 import Cocoa
 import XCTest
+import Accelerate
 
 class swiftlibtest: XCTestCase {
     
@@ -31,6 +32,20 @@ class swiftlibtest: XCTestCase {
         let val2:Float = 0.000001
         XCTAssert( val1.IsNearlyZero() );
         XCTAssert( !val2.IsNearlyZero() );
+    }
+    
+    func testStopWatch() {
+        var buf:[Float] = Array<Float>(count: 4096, repeatedValue: 3)
+        var sw:StopWatch = StopWatch();
+        sw.start()
+        for j in 0 ..< 10000 {
+            //for i in 0 ..< 4096 {
+                //buf[i] *= 1023
+                var val:Float = 1023
+                vDSP_vsmul(&buf, 1, &val, &buf, 1, 4096)
+            //}
+        }
+        sw.stop()
     }
     
 }
