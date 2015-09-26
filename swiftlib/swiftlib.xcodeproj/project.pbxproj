@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		A21975DF1BAFBFBF0001D3A1 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */; };
 		A21975E01BAFBFBF0001D3A1 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */; };
+		A2436DB21BB65F5B0068D628 /* swiftlib.h in Headers */ = {isa = PBXBuildFile; fileRef = A2436DB11BB65F5B0068D628 /* swiftlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2436DB81BB65F5B0068D628 /* swiftlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2436DAD1BB65F5B0068D628 /* swiftlib.framework */; };
+		A2436DBF1BB65F5B0068D628 /* swiftlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2436DBE1BB65F5B0068D628 /* swiftlibTests.swift */; };
+		A2436DC61BB65F730068D628 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B471001B9A4AB700525051 /* Logger.swift */; };
+		A2436DC71BB65F760068D628 /* IsNearlyZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B471101B9A54AB00525051 /* IsNearlyZero.swift */; };
+		A2436DC81BB65F790068D628 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */; };
 		A2B470F91B9A49C300525051 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B470F81B9A49C300525051 /* main.swift */; };
 		A2B471011B9A4AB700525051 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B471001B9A4AB700525051 /* Logger.swift */; };
 		A2B4710B1B9A4AD200525051 /* swiftlibtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B4710A1B9A4AD200525051 /* swiftlibtest.swift */; };
@@ -16,6 +22,16 @@
 		A2B471111B9A54AB00525051 /* IsNearlyZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B471101B9A54AB00525051 /* IsNearlyZero.swift */; };
 		A2B471121B9A589F00525051 /* IsNearlyZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B471101B9A54AB00525051 /* IsNearlyZero.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2436DB91BB65F5B0068D628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B470ED1B9A49C300525051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2436DAC1BB65F5B0068D628;
+			remoteInfo = swiftlib;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A2B470F31B9A49C300525051 /* CopyFiles */ = {
@@ -31,6 +47,12 @@
 
 /* Begin PBXFileReference section */
 		A21975DE1BAFBFBF0001D3A1 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		A2436DAD1BB65F5B0068D628 /* swiftlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swiftlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2436DB01BB65F5B0068D628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2436DB11BB65F5B0068D628 /* swiftlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftlib.h; sourceTree = "<group>"; };
+		A2436DB71BB65F5B0068D628 /* swiftlibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftlibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2436DBD1BB65F5B0068D628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2436DBE1BB65F5B0068D628 /* swiftlibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftlibTests.swift; sourceTree = "<group>"; };
 		A2B470F51B9A49C300525051 /* swiftlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftlib; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B470F81B9A49C300525051 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A2B471001B9A4AB700525051 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -41,6 +63,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A2436DA91BB65F5B0068D628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2436DB41BB65F5B0068D628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2436DB81BB65F5B0068D628 /* swiftlib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2B470F21B9A49C300525051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +95,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2436DAE1BB65F5B0068D628 /* swiftlib */ = {
+			isa = PBXGroup;
+			children = (
+				A2436DB11BB65F5B0068D628 /* swiftlib.h */,
+				A2436DAF1BB65F5B0068D628 /* Supporting Files */,
+			);
+			path = swiftlib;
+			sourceTree = "<group>";
+		};
+		A2436DAF1BB65F5B0068D628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2436DB01BB65F5B0068D628 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2436DBB1BB65F5B0068D628 /* swiftlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2436DBE1BB65F5B0068D628 /* swiftlibTests.swift */,
+				A2436DBC1BB65F5B0068D628 /* Supporting Files */,
+			);
+			path = swiftlibTests;
+			sourceTree = "<group>";
+		};
+		A2436DBC1BB65F5B0068D628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2436DBD1BB65F5B0068D628 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		A2B470EC1B9A49C300525051 = {
 			isa = PBXGroup;
 			children = (
 				A2B470F71B9A49C300525051 /* swiftlib */,
 				A2B471071B9A4AD200525051 /* swiftlibtest */,
+				A2436DAE1BB65F5B0068D628 /* swiftlib */,
+				A2436DBB1BB65F5B0068D628 /* swiftlibTests */,
 				A2B470F61B9A49C300525051 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +145,8 @@
 			children = (
 				A2B470F51B9A49C300525051 /* swiftlib */,
 				A2B471061B9A4AD200525051 /* swiftlibtest.xctest */,
+				A2436DAD1BB65F5B0068D628 /* swiftlib.framework */,
+				A2436DB71BB65F5B0068D628 /* swiftlibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,10 +189,57 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A2436DAA1BB65F5B0068D628 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2436DB21BB65F5B0068D628 /* swiftlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		A2B470F41B9A49C300525051 /* swiftlib */ = {
+		A2436DAC1BB65F5B0068D628 /* swiftlib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2B470FC1B9A49C300525051 /* Build configuration list for PBXNativeTarget "swiftlib" */;
+			buildConfigurationList = A2436DC01BB65F5B0068D628 /* Build configuration list for PBXNativeTarget "swiftlib" */;
+			buildPhases = (
+				A2436DA81BB65F5B0068D628 /* Sources */,
+				A2436DA91BB65F5B0068D628 /* Frameworks */,
+				A2436DAA1BB65F5B0068D628 /* Headers */,
+				A2436DAB1BB65F5B0068D628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftlib;
+			productName = swiftlib;
+			productReference = A2436DAD1BB65F5B0068D628 /* swiftlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2436DB61BB65F5B0068D628 /* swiftlibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2436DC31BB65F5B0068D628 /* Build configuration list for PBXNativeTarget "swiftlibTests" */;
+			buildPhases = (
+				A2436DB31BB65F5B0068D628 /* Sources */,
+				A2436DB41BB65F5B0068D628 /* Frameworks */,
+				A2436DB51BB65F5B0068D628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2436DBA1BB65F5B0068D628 /* PBXTargetDependency */,
+			);
+			name = swiftlibTests;
+			productName = swiftlibTests;
+			productReference = A2436DB71BB65F5B0068D628 /* swiftlibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2B470F41B9A49C300525051 /* swiftlibbin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B470FC1B9A49C300525051 /* Build configuration list for PBXNativeTarget "swiftlibbin" */;
 			buildPhases = (
 				A2B470F11B9A49C300525051 /* Sources */,
 				A2B470F21B9A49C300525051 /* Frameworks */,
@@ -127,7 +249,7 @@
 			);
 			dependencies = (
 			);
-			name = swiftlib;
+			name = swiftlibbin;
 			productName = swiftlib;
 			productReference = A2B470F51B9A49C300525051 /* swiftlib */;
 			productType = "com.apple.product-type.tool";
@@ -158,6 +280,12 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = pebble8888;
 				TargetAttributes = {
+					A2436DAC1BB65F5B0068D628 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A2436DB61BB65F5B0068D628 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					A2B470F41B9A49C300525051 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -178,13 +306,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2B470F41B9A49C300525051 /* swiftlib */,
+				A2B470F41B9A49C300525051 /* swiftlibbin */,
 				A2B471051B9A4AD200525051 /* swiftlibtest */,
+				A2436DAC1BB65F5B0068D628 /* swiftlib */,
+				A2436DB61BB65F5B0068D628 /* swiftlibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A2436DAB1BB65F5B0068D628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2436DB51BB65F5B0068D628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2B471041B9A4AD200525051 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,6 +339,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A2436DA81BB65F5B0068D628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2436DC81BB65F790068D628 /* StopWatch.swift in Sources */,
+				A2436DC71BB65F760068D628 /* IsNearlyZero.swift in Sources */,
+				A2436DC61BB65F730068D628 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2436DB31BB65F5B0068D628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2436DBF1BB65F5B0068D628 /* swiftlibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2B470F11B9A49C300525051 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,7 +381,91 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A2436DBA1BB65F5B0068D628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2436DAC1BB65F5B0068D628 /* swiftlib */;
+			targetProxy = A2436DB91BB65F5B0068D628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A2436DC11BB65F5B0068D628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swiftlib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2436DC21BB65F5B0068D628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = swiftlib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2436DC41BB65F5B0068D628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swiftlibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2436DC51BB65F5B0068D628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swiftlibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A2B470FA1B9A49C300525051 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -349,6 +595,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A2436DC01BB65F5B0068D628 /* Build configuration list for PBXNativeTarget "swiftlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2436DC11BB65F5B0068D628 /* Debug */,
+				A2436DC21BB65F5B0068D628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2436DC31BB65F5B0068D628 /* Build configuration list for PBXNativeTarget "swiftlibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2436DC41BB65F5B0068D628 /* Debug */,
+				A2436DC51BB65F5B0068D628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A2B470F01B9A49C300525051 /* Build configuration list for PBXProject "swiftlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -358,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2B470FC1B9A49C300525051 /* Build configuration list for PBXNativeTarget "swiftlib" */ = {
+		A2B470FC1B9A49C300525051 /* Build configuration list for PBXNativeTarget "swiftlibbin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2B470FD1B9A49C300525051 /* Debug */,
