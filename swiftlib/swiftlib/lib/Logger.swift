@@ -13,7 +13,7 @@ class Logger {
     {
     }
    
-    class func debug(message:String, function: String = __FUNCTION__, line: Int = __LINE__) 
+    class func debug(_ message:String, function: String = #function, line: Int = #line) 
     { 
 #if DEBUG
         let str:String = "\(function) line[\(line)] \(message)"

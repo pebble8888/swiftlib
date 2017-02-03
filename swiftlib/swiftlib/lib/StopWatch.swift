@@ -3,24 +3,35 @@
 //  swiftlib
 //
 //  Created by pebble8888 on 2015/09/21.
-//  Copyright (c) 2015 pebble8888. All rights reserved.
+//  Copyright (c) 2015-2017 pebble8888. All rights reserved.
 //
 
 import Foundation
 
 @objc public class StopWatch : NSObject {
-    // start stopwatch at initialize
-    override init(){
+    private var _start:Date!
+    private var _elapsed:TimeInterval = 0.0
+    
+    override init()
+    {
         super.init()
-        _start = NSDate()
+        _start = Date()
     }
-    public func start(){
-        _start = NSDate()
+    
+    public func start()
+    {
+        _start = Date()
     }
-    // stop stopwatch and debug print elapsed time
-    public func stop(function: String = __FUNCTION__, line: Int = __LINE__){
-        let elapsed = NSDate().timeIntervalSinceDate(_start)
-        Logger.debug("\(elapsed)", function:function, line:line)
+    
+    public func stop()
+    {
+        _elapsed = Date().timeIntervalSince(_start)
     }
-    private var _start:NSDate!
+    
+    override public var description: String
+    {
+        let val:Int = Int(_elapsed * 1_000_000)
+        return "\(val) us"
+    }
+    
 }
